@@ -14,7 +14,7 @@ presskit_download_link:
 
 app_icon: assets/appicon.png # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name: Quotify # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price: Free # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_price: # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description: Quickly capture quotes. Add them to your home screen to stay inspired. Share favorites with others.
 
 enable_smart_app_banner: true # Set to true to show a smart app banner at top of page on mobile devices.
@@ -33,45 +33,29 @@ youtube_username:
 
 # Feature List                            Edit, add or remove features to be presented.
 features:
-  - title: GitHub Pages Jekyll Theme
-    description: Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name: magic
+  - title: Quickly Capture Quotes
+    description: Capture text and add quotes fast using the camera, voice, or keyboard.
+    fontawesome_icon_name: camera
 
-  - title: iPhone Device Preview
-    description: Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name: mobile
+  - title: Import From Other Apps
+    description: Save quotes from other apps like Twitter, Instagram, Safari, Chrome, Podcasts, and more.
+    fontawesome_icon_name: download
 
-  - title: Video Support
-    description: Preview app video on the iPhone device simply by placing your video files in the videos folder.
-    fontawesome_icon_name: play-circle
+  - title: Home Screen Widgets
+    description: Add widgets to your home screen and stay inspried with quotes from your collection.
+    fontawesome_icon_name: mobile-screen
 
-  - title: Automatic Icon and Metadata
-    description: Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name: sync
+  - title: Style and Share
+    description: Customize and share to inspire others with built-in formating for Instagram and other social media.
+    fontawesome_icon_name: share-from-square
 
-  - title: Easy to Tweak
-    description: Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: adjust
+  - title: Backup and Sync
+    description: Automatic quote backup and sync across all your devices. Requires Quotify Premium.
+    fontawesome_icon_name: cloud
 
-  - title: Feature List
-    description: Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: star
-
-  - title: Smart App Banner
-    description: Display a smart app banner on iOS devices.
-    fontawesome_icon_name: arrow-alt-circle-down
-
-  - title: Social Links
-    description: Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: link
-
-  - title: FontAwesome Support
-    description: Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name: info-circle
-
-  - title: # New Feature Title
-    description: # New Feature Description
-    fontawesome_icon_name: # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
+  - title: Daily Notifications
+    description: Configure daily quote notifications for inspiration. Requires Quotify Premium.
+    fontawesome_icon_name: bell
 
 # Theme Settings
 topbar_color: "#000000"
@@ -86,7 +70,7 @@ device_color: # Set to: blue, black, yellow, coral or white.
 
 body_background_color: "#000000"
 
-link_color: "#007affff"
+link_color: "#007aff"
 
 app_title_color: "#ffffff"
 app_price_color: "#ffffff"
@@ -95,7 +79,7 @@ app_description_color: "#ffffff"
 feature_title_color: "#ffffff"
 feature_text_color: "#666666"
 
-feature_icons_foreground_color: "#007affff"
+feature_icons_foreground_color: "#007aff"
 feature_icons_background_color: "#363636"
 
 social_icons_foreground_color: "#ffffff"
