@@ -42,7 +42,6 @@
             </div>
             <div class="appNamePriceContainer">
               <h1 class="appName">{{ site.app_name }}</h1>
-              <h2 class="appPrice">{{ site.app_price }}</h2>
             </div>
             <div class="appDescriptionContainer">
               <p class="appDescription">{{ site.app_description }}</p>
@@ -53,9 +52,7 @@
                 ><img class="playStore" src="assets/playstore.png"
               /></a>
               {% endif %}
-              <a class="testflightLink" href="{{site.testflight_link}}"
-                ><img class="appStore" src="assets/testflight.png"
-              /></a>
+              <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
             </div>
           </div>
           {% include features.html %} {% include footer.html %} {% include
